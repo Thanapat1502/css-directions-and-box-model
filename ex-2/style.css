@@ -1,1 +1,26 @@
 /* Start coding here */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*แยก 2 div แล้วแต่งสี background กับ border*/
+.layer1 {
+  border: solid 16px lightgray;
+  background-color: black;
+  padding: 16px;
+}
+.layer2 {
+  background-color: khaki;
+  border: solid 24px crimson;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+.Logo {
+  font-size: 72px;
+  margin: 30px;
+}

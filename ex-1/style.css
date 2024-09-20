@@ -1,1 +1,47 @@
 /* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 80px;
+}
+
+/*ทำ header*/
+header {
+  color: #183b56;
+  background-color: #92aabd;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  margin-left: 5%;
+}
+/*------*/
+/*ทำการ์ด*/
+.cafe-card,
+.place-card {
+  background-color: #e4e9ed;
+  color: #183b56;
+  height: auto;
+  width: 45%;
+  border: solid 5px #35546b;
+  margin-left: 5%;
+}
+/**/
+/*รายละเอียด*/
+.cafe-card h2,
+img,
+p {
+  margin: 5%;
+}
+.place-card h2,
+img,
+p {
+  margin: 5%;
+}
