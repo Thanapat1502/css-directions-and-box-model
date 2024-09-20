@@ -1,1 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.BlogPage_flexcontainer {
+    display: flex;
+    Flex-direction: column;
+    padding: 50px;
+    gap: 80px;
+}
+
+.Contentsection {
+    display: flex;
+    Flex-direction: column;
+    gap: 50px;
+}
+
+.cafe {
+    display: flex;
+    Flex-direction: column;
+    width: 536px;
+    height: 321px;
+    border: solid 3px #183B56;
+    border-color: black;
+    background-color: #E4E9ED;
+    margin: 2%;
+    padding: 20px;
+    
+}
+
+h1 {
+    display: flex;
+    color: #183B56;
+    background-color:#92AABD;
+    padding: 52px;
+    ;
+}
+
+
+
 /* Start coding here */
