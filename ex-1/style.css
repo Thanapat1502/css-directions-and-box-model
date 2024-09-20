@@ -1,1 +1,48 @@
 /* Start coding here */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#head {
+  display: flex;
+  width: 1433px;
+  height: 120px;
+  background-color: #92aabd;
+  justify-content: flex-start;
+  align-items: center;
+  color: #183b56;
+  gap: 80px;
+  margin-top: 20px;
+  padding-left: 35px;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+}
+.container1,
+.container2 {
+  margin: 2%;
+  padding: 20px;
+  border: solid 3px #183b56;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 536px;
+  height: 321px;
+}
+img {
+  width: 404.75px;
+  height: 120px;
+  border: 2px;
+  border-color: #aaaa;
+  margin-top: 20px;
+}
+p {
+  margin-top: 20px;
+  color: #183b56;
+}
+h2 {
+  color: #183b56;
+}
